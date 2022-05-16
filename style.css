@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+#urna {
+    background-color: rgb(228, 228, 228);
+    width: 900px;
+    height: 400px;
+    display: flex;
+}
+#tela {
+    background-image: linear-gradient(to right, rgb(233, 233, 233),rgb(196,196,196));
+    flex: 1;
+    margin: 30px 0 30px 30px;
+    border: 2px #CCC solid;
+    display: flex;
+    flex-direction: column
+}
+.tela--top {
+    flex: 1;
+    display: flex;
+}
+.tela--top-esquerda {
+    flex: 1;
+}
+.espaco {
+    height: 60px;
+    display: flex;
+}
+.espaco span {
+    margin: 20px;
+}
+.seu--voto-para {
+    font-weight: bold;
+}
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tela--top-direita {
+    width: 120px;
+    margin: 5px;
+}
+.foto--um img {
+    width: 70%;
+}
+.foto--dois, .foto--um {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    align-items: flex-end;
+}
+.foto--dois img {
+    width: 40%;
+}
+footer {
+    height: 80px;
+    border-top: 2px #000 solid;
+}
+.tela--bot {
+    margin: 15px;
+}
+#teclado {
+    background-color: #403A3A;
+    width: 33%;
+    margin: 30px;
+}
+#botoes {
+    margin: 40px 15px;
+}
+.teclado--linha {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    align-items: flex-end;
+    text-align: center;
+}
+.botao {
+    width: 70px;
+    height: 40px;
+    background-color: #000;
+    margin: 5px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    box-shadow: 3px 3px 0px rgb(80, 80, 80);
+}
+.botao--branco {
+    background-color: #FFF;
+    color: #000;
+    font-size: 15px;
+    width: 80px;
+}
+.botao--corrige {
+    background-color: #F09046;
+    color: #000;
+    font-size: 15px;
+    width: 80px;
+}
+.botao--confirma{
+    background-color: #48C079;
+    color: #000;
+    font-size: 15px;
+    width: 90px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
