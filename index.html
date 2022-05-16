@@ -17,21 +17,23 @@
                         <div class="espaco seu--voto-para"><p>SEU VOTO PARA</p></div>
                         <div class="espaco titulo"><span>VEREADOR</span></div>
                         <div class="espaco">
-                            <p>Número:</p>
-                            <span class="numero pisca"></span>
-                            <span class="numero"></span>
+                            <p class="num">Número:</p>
+                            <div class="numeros">
+                                <span class="numero pisca"></span>
+                                <span class="numero"></span>
+                            </div>
                         </div>
                         <div class="espaco status">
-                            <div>Nome: Fulano de Tal</div>
-                            <div>Partido: DDD</div>
-                            <div>Nome: Fulano de Tal</div>
+                            <div class="status-nome">Nome: Fulano de Tal</div>
+                            <div class="status-partido">Partido: DDD</div>
+                            <div class="status-vice">Vice-Prefeito: Ciclano de Tal</div>
                         </div>
                     </div>
                     <div class="tela--top-direita">
-                        <div class="foto--um">
+                        <!-- <div class="foto--um">
                             <img src="img/84.jpg">
                             <p>Prefeito</p>
-                        </div>
+                        </div> -->
                         <div class="foto--dois">
                             <img src="img/84_2.jpg">
                             <p>Vice-Prefeito</p>
@@ -50,27 +52,27 @@
             <div id="teclado">
                 <div id="botoes">
                     <div class="teclado--linha">
-                        <div class="botao teclado--botao">1</div>
-                        <div class="botao teclado--botao">2</div>
-                        <div class="botao teclado--botao">3</div>
+                        <div class="botao teclado--botao" onclick="clicou('1')">1</div>
+                        <div class="botao teclado--botao" onclick="clicou('2')">2</div>
+                        <div class="botao teclado--botao" onclick="clicou('3')">3</div>
                     </div>
                     <div class="teclado--linha">
-                        <div class="botao teclado--botao">4</div>
-                        <div class="botao teclado--botao">5</div>
-                        <div class="botao teclado--botao">6</div>
+                        <div class="botao teclado--botao" onclick="clicou('4')">4</div>
+                        <div class="botao teclado--botao" onclick="clicou('5')">5</div>
+                        <div class="botao teclado--botao" onclick="clicou('6')">6</div>
                     </div>
                     <div class="teclado--linha">
-                        <div class="botao teclado--botao">7</div>
-                        <div class="botao teclado--botao">8</div>
-                        <div class="botao teclado--botao">9</div>
+                        <div class="botao teclado--botao" onclick="clicou('7')">7</div>
+                        <div class="botao teclado--botao" onclick="clicou('8')">8</div>
+                        <div class="botao teclado--botao" onclick="clicou('9')">9</div>
                     </div>
                     <div class="teclado--linha">
-                        <div class="botao teclado--botao">0</div>
+                        <div class="botao teclado--botao" onclick="clicou('0')">0</div>
                     </div>
                     <div class="teclado--linha">
-                        <div class="botao teclado--botao botao--branco">BRANCO</div>
-                        <div class="botao teclado--botao botao--corrige">CORRIGE</div>
-                        <div class="botao teclado--botao botao--confirma">CONFIRMA</div>
+                        <div class="botao teclado--botao botao--branco" onclick="branco()">BRANCO</div>
+                        <div class="botao teclado--botao botao--corrige" onclick="corrige()">CORRIGE</div>
+                        <div class="botao teclado--botao botao--confirma" onclick="confirma()">CONFIRMA</div>
                     </div>
                 </div>
             </div>
